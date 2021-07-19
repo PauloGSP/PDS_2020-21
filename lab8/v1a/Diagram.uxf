@@ -1,0 +1,103 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;240&lt;/x&gt;&lt;y&gt;120&lt;/y&gt;&lt;w&gt;190&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;170;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;240&lt;/x&gt;&lt;y&gt;140&lt;/y&gt;&lt;w&gt;190&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;.&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;170;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;290&lt;/x&gt;&lt;y&gt;530&lt;/y&gt;&lt;w&gt;160&lt;/w&gt;&lt;h&gt;100&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+m1=0..n&lt;/panel_attributes&gt;&lt;additional_attributes&gt;140;80;10;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;240&lt;/x&gt;&lt;y&gt;250&lt;/y&gt;&lt;w&gt;190&lt;/w&gt;&lt;h&gt;40&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+m1=0..n&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;170;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;210&lt;/x&gt;&lt;y&gt;130&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;70&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+m1=0..1&lt;/panel_attributes&gt;&lt;additional_attributes&gt;190;50;10;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;240&lt;/x&gt;&lt;y&gt;250&lt;/y&gt;&lt;w&gt;190&lt;/w&gt;&lt;h&gt;40&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;-
+m1=0..n&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;170;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;240&lt;/x&gt;&lt;y&gt;140&lt;/y&gt;&lt;w&gt;190&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;.&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;170;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;10&lt;/x&gt;&lt;y&gt;10&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;«Java Class»
+BankAccountProxy
+--
++BankAccountProxy()
+deposit(double):void
+balance():double
+withdraw(double):boolean&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;80&lt;/x&gt;&lt;y&gt;190&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;«Java Class»
+Company
+--
++Company()
+admitPerson(String,double):void
+paySalaries(int):void
+employees():List&amp;lt;Employee&amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;390&lt;/x&gt;&lt;y&gt;280&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;«Java Class»
+Person
+--
+-name:String
+--
++Person()
+getName():String
+getBankAccount():BankAccount&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;80&lt;/x&gt;&lt;y&gt;190&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;«Java Class»
+Company
+--
++Company()
+admitPerson(String,double):void
+paySalaries(int):void
+employees():List&amp;lt;Employee&amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;160&lt;/x&gt;&lt;y&gt;260&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;&amp;lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&amp;gt;&amp;lt;zoom_level&amp;gt;10&amp;lt;/zoom_level&amp;gt;&amp;lt;element&amp;gt;&amp;lt;id&amp;gt;UMLClass&amp;lt;/id&amp;gt;&amp;lt;coordinates&amp;gt;&amp;lt;x&amp;gt;160&amp;lt;/x&amp;gt;&amp;lt;y&amp;gt;260&amp;lt;/y&amp;gt;&amp;lt;w&amp;gt;210&amp;lt;/w&amp;gt;&amp;lt;h&amp;gt;190&amp;lt;/h&amp;gt;&amp;lt;/coordinates&amp;gt;&amp;lt;panel_attributes&amp;gt;&amp;amp;lt;&amp;amp;lt;Java Class&amp;amp;gt;&amp;amp;gt;
+Company
+--
++Company()
+admitPerson(String,double):void
+paySalaries(int):void
+employees():List&amp;amp;lt;Employee&amp;amp;gt;&amp;lt;/panel_attributes&amp;gt;&amp;lt;additional_attributes&amp;gt;&amp;lt;/additional_attributes&amp;gt;&amp;lt;/element&amp;gt;&amp;lt;/diagram&amp;gt;&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;
+Company
+--
++Company()
+admitPerson(String,double):void
+paySalaries(int):void
+employees():List&amp;lt;Employee&amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;160&lt;/x&gt;&lt;y&gt;260&lt;/y&gt;&lt;w&gt;210&lt;/w&gt;&lt;h&gt;190&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;&amp;lt;&amp;lt;Java Class&amp;gt;&amp;gt;
+Company
+--
++Company()
+admitPerson(String,double):void
+paySalaries(int):void
+employees():List&amp;lt;Employee&amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>250</x><y>760</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Java Enum&gt;&gt;
+User
+--
+*OWNER: User
+*COMPANY: User
+--
++User()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>600</x><y>500</y><w>210</w><h>180</h></coordinates><panel_attributes>&lt;&lt;Java Class&gt;&gt;
+Employee
+--
+-salary:double
+--
++Employee(String,double)
+getSalary():double
+getBankAccount():BankAccount</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>470</y><w>210</w><h>250</h></coordinates><panel_attributes>«Java Class»
+Company
+--
++Company()
+admitPerson(String,double):void
+paySalaries(int):void
+employees():List&lt;Employee&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>970</x><y>750</y><w>210</w><h>190</h></coordinates><panel_attributes>«Java Class»
+Person
+--
+-name:String
+--
++Person()
+getName():String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>960</x><y>460</y><w>210</w><h>190</h></coordinates><panel_attributes>«Java Class»
+BankAccountImpl
+--
+-bank:String
+-balance:double
+--
++BankAccountImpl()
+getBank():String
+deposit(double):void
+balance():double
+withdraw(double):boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>100</y><w>210</w><h>190</h></coordinates><panel_attributes>«Java Class»
+BankAccountProxy
+--
++BankAccountProxy()
+deposit(double):void
+balance():double
+withdraw(double):boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>130</y><w>210</w><h>190</h></coordinates><panel_attributes>«Java interface»
+BankAccount
+--
+
+deposit(double):void
+balance():double
+withdraw(double):boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>170</y><w>210</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>190;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>220</y><w>210</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..1</panel_attributes><additional_attributes>190;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>310</y><w>110</w><h>210</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..1
+bankaccount</panel_attributes><additional_attributes>10;10;40;190</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>490</y><w>170</w><h>160</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>140;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>710</y><w>90</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..1
++user</panel_attributes><additional_attributes>10;50;70;10</additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>290</y><w>210</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;190;180</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>670</y><w>280</w><h>220</h></coordinates><panel_attributes>lt=&lt;&lt;-
+m1=0..1</panel_attributes><additional_attributes>260;200;10;10</additional_attributes></element></diagram>

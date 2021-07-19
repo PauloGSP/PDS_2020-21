@@ -1,0 +1,3 @@
+validar os ficheiros de entrada e saida pro 1.2
+fazer as wordlists virem dos ficheiros de entrada
+partir pros ficheiros de saida

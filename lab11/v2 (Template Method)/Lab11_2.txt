@@ -1,0 +1,111 @@
+java.util.AbstractList
+
+public abstract class AbstractList<E>
+     - Para além dos métodos presentes no template é ainda definido um método abstrato
+        abstract public E get(int index);
+    -  Que pode ser usado da seguinte forma
+
+        class SubList<E> extends AbstractList<E>
+
+    - Esta classe implementa 
+
+            public E get(int index) {
+                rangeCheck(index);
+                checkForComodification();
+                return l.get(index+offset);
+            }
+
+
+
+java.util.InputStream
+
+public abstract class InputStream
+    - Para além dos métodos presentes no template é ainda definido um método abstrato
+        public abstract int read() throws IOException;
+        
+    -  Que pode ser usado da seguinte forma
+
+          class BufferedInputStream extends FilterInputStream
+
+    - Esta classe implementa 
+
+        public synchronized int read() throws IOException {
+           if (pos >= count) {
+                fill();
+                 if (pos >= count)
+                    return -1;
+             }
+             return getBufIfOpen()[pos++] & 0xff;
+       }
+  
+java.io.Writer
+
+public abstract class Writer implements Appendable, Closeable, Flushable
+    - Para além dos métodos presentes no template é ainda definido um método abstrato
+        abstract public void close() throws IOException;
+        abstract public void flush() throws IOException;
+        abstract public void write(char cbuf[], int off, int len) throws IOException;
+    -  Que pode ser usado da seguinte forma
+        public class BufferedWriter extends Writer
+    - Esta classe implementa 
+    
+        public void write(char cbuf[], int off, int len) throws IOException {
+               synchronized (lock) {
+                   ensureOpen();
+                   if ((off < 0) || (off > cbuf.length) || (len < 0) ||
+                       ((off + len) > cbuf.length) || ((off + len) < 0)) {
+                       throw new IndexOutOfBoundsException();
+                   } else if (len == 0) {
+                       return;
+                   }
+       
+                   if (len >= nChars) {
+                       /* If the request length exceeds the size of the output buffer,
+                          flush the buffer and then write the data directly.  In this
+                          way buffered streams will cascade harmlessly. */
+                       flushBuffer();
+                       out.write(cbuf, off, len);
+                       return;
+                   }
+       
+                   int b = off, t = off + len;
+                   while (b < t) {
+                       int d = min(nChars - nextChar, t - b);
+                       System.arraycopy(cbuf, b, cb, nextChar, d);
+                       b += d;
+                       nextChar += d;
+                       if (nextChar >= nChars)
+                           flushBuffer();
+                   }
+               }
+           }
+
+
+         public void close() throws IOException {
+             synchronized (lock) {
+                 if (out == null) {
+                     return;
+                 }
+                 try {
+                     flushBuffer();
+                 } finally {
+                     out.close();
+                     out = null;
+                     cb = null;
+                 }
+             }
+         }
+
+     public void flush() throws IOException {
+             synchronized (lock) {
+                 flushBuffer();
+                 out.flush();
+             }
+       }
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+Factory Method
+createCalendar (linha 1016) pode instanciar vários tipos de calendário que herdem de si dependendo dos argumentos.
+
+Abstract Factory
+appendValue (linha 2570) Embora a função não retorne nada, está aqui presente uma carateristica deste padrão, em que a classe que vai construir a string é passada como argumento.

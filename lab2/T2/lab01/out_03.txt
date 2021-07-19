@@ -1,0 +1,19 @@
+DEFINITION  	10	 7,10	Left            
+CAT         	 3	 8, 7	Right           
+DOG         	 3	 1, 9	Down            
+PUPPY       	 5	 4, 3	Right           
+WORDLIST    	 8	 2, 8	Left            
+STRING      	 6	 3, 3	Right           
+CHAR        	 4	 6, 8	Left            
+
+........D.
+TSILDROWO.
+..STRINGG.
+..PUPPY...
+..........
+....RAHC..
+NOITINIFED
+......CAT.
+..........
+..........
+
